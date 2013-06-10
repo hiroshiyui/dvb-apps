@@ -850,7 +850,7 @@ static void descriptorcpy(char **dest, const unsigned char *src, size_t len)
 		case 0x11:	type = "ISO-10646";		break;
 		case 0x12:	type = "ISO-2022-KR";		break;
 		case 0x13:	type = "GB2312";		break;
-		case 0x14:	type = "BIG5";			break;
+		case 0x14:	type = "UNICODEBIG";			break;
 		case 0x15:	type = "ISO-10646/UTF-8";	break;
 		case 0x10: /* ISO8859 */
 			if ((*(src + 1) != 0) || *(src + 2) > 0x0f)
